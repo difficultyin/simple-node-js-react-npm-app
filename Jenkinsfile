@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools {nodejs "/Users/mac/.nvm/versions/node/v18.17.1"}
+    tools {nodejs "node 18.17.1"}
     stages {
         stage('Build') { 
             steps {
